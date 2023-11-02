@@ -1,0 +1,4 @@
+.env
+.venv
+saves/*
+.ipynb_checkpoints/*

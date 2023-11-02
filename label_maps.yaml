@@ -1,0 +1,28 @@
+v1:
+  - model: 'job_search_status'
+    map:
+      - {value: 'received offer/started new job', label_encode: 0}
+      - {value: 'searching/considering search', label_encode: 1}
+      - {value: 'not searching/unknown', label_encode: 2}
+    examples:
+      - label: 1
+        text: |-
+          Started searching for jobs and struggling
+      - label: 0
+        text: |-
+          Just received a new job offer!
+      - label: 2
+        text: |-
+          My job is paying my coworker more than me. What do I do?
+      - label: 2
+        text: |-
+          Recruiters really tick me off
+          Its 9am on a weekend and I'm already ticked off. I came across a post on LinkedIn that said recruiters should dress up as ghosts because they ghost candidates. Do recruiters really think this kind of stuff is funny?
+      - label: 1
+        text: |-
+          Emotionally exhausted from this BS market
+          I just need to rant. I never cried so much within a week until now. I have bills to pay, rent is over 2k for a studio, there are no jobs here. I am so tired because this job market is exhausting and everyone is saying its fine.
+      - label: 0
+        text: |-
+          Mind blowing "counter" from employer
+          So I'm officially employed as a sales rep on $47k/year, but I've been doing the responsibilities and tasks of the sales manager AND operations manager all year. Both of these official positions have technically been available, but my boss just hasn't bothered hiring for them. I recently got a new job that I start in 2 weeks, which is going to pay me just over $99k/year with additional benefits and allowances. The day after I resigned last week, my boss came at me with the "official" promotion to the role I'm doing - $55K. I declined, obviously. He seemed shocked, told me that the money shouldn't be a factor, that I've built up such a great reputation here I'd be throwing my "career" away (I've been there for less than 2 years). I told him that it's insulting at this point, and that if he had offered me the position a few months ago I wouldn't have started job searching and would've been elated. I advised him to reward people when it's due, not when you're going to lose them. Now as a result, the location I work at is going to be shut down because he can't find anyone to replace me and the other managers are leaving with me. Karma is sweet. 
