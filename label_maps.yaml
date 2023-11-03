@@ -1,4 +1,4 @@
-v1:
+labor_market_v1:
   - model: 'job_search_status'
     map:
       - {value: 'received offer/started new job', label_encode: 0}
