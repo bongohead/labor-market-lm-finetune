@@ -1,4 +1,10 @@
+# Creds
 .env
-.venv
+
+# Data
 saves/*
-.ipynb_checkpoints/*
+
+# Python
+.venv
+.ipynb_checkpoints
+__pycache__/
