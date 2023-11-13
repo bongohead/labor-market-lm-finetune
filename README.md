@@ -1,1 +1,1 @@
-This contains finetuning code for the labor market BERT classifier (ALBERT + LORA). Training data is generated from GPT-4.
+This contains finetuning code for the labor market BERT classifier (ALBERT + LORA).

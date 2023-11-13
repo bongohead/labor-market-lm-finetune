@@ -63,5 +63,42 @@ financial_health_v1:
         text: |-
           Pretty large raise at work
           I am a 24-year-old working as an HR Assistant/ Recruiter at a well-endowed Non-Profit. I finished an MBA (that was paid for in full by my org) I almost immediately received a massive raise that increased my comp from 50k to 65k. I also work a part-time 1-day week job that will net just shy of 5K this year. I pay around 1K a month for rent and have about 56k remaining in private student loans. Does anyone have any advice for paying down my loans while growing my bank account? I also maintain a 403B and a Roth that I would consider increasing my contributions but would like to grow savings first due to the expensive city I live in.
+  - model: employment_status
+    map:
+      - {value: 'unemployed', label_encode: 0}
+      - {value: 'employed', label_encode: 1}
+      - {value: 'unknown', label_encode: 2}
+    examples:
+      - label: 0
+        text: |-
+          Started searching for jobs and struggling to find anything
+      - label: 1
+        text: |-
+          Just received a new job offer with a big pay raise!
+      - label: 2
+        text: |-
+          How to find a good budgeting app?
+      - label: 0
+        text: |-
+          Emotionally exhausted from this BS market
+          I just need to rant. I never cried so much within a week until now. I have bills to pay, rent is over 2k for a studio, there are no jobs here. I am so tired because this job market is exhausting and everyone is saying its fine.
+      - label: 1
+        text: |-
+          Coworker got a bigger raise than me.
+      - label: 2
+        text: |-
+          Advice on choosing a career path.
+      - label: 0
+        text: |-
+          As a recent college graduate, I thought it wouldn't be that hard to find a job that paid $20 an hour that but I was wrong. There are no entry level jobs in my field or any job that could potentially get my foot in the door pay so little. What is the point of having a college degree if full time jobs won't even allow me to move out and rent a room.
+      - label: 2
+        text: |-
+          What would be considered a decent salary for an apartment costing $1000 per month?
+          Title says it all. What’s a decent one (while still having fun money, can save, feel comfortable)?? And what would be the minimum salary for the same apartment, where I could still get by, but fun would be decreased significantly/eating habits would change. 
+      - label: 1
+        text: |-
+          Pretty large raise at work
+          I am a 24-year-old working as an HR Assistant/ Recruiter at a well-endowed Non-Profit. I finished an MBA (that was paid for in full by my org) I almost immediately received a massive raise that increased my comp from 50k to 65k. I also work a part-time 1-day week job that will net just shy of 5K this year. I pay around 1K a month for rent and have about 56k remaining in private student loans. Does anyone have any advice for paying down my loans while growing my bank account? I also maintain a 403B and a Roth that I would consider increasing my contributions but would like to grow savings first due to the expensive city I live in.
+
 
 
